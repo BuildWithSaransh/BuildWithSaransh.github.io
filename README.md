@@ -6,7 +6,7 @@ A modern, responsive portfolio site for Saransh Maurya — AIML student & full-s
 
 ## Built With
 
-- HTML5, Tailwind CSS (CDN)
+- HTML5, Tailwind CSS (PostCSS build)
 - Vanilla JavaScript
 - Google Fonts — Space Grotesk, Inter, JetBrains Mono
 
