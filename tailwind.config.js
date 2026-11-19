@@ -6,28 +6,21 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                bg: '#0a0e1a',
-                surface: '#0f1524',
-                card: '#111a2e',
-                border: '#1e293b',
-                cyan: {
-                    DEFAULT: '#22d3ee',
-                    soft: '#67e8f9'
-                },
-                indigo: {
-                    DEFAULT: '#6366f1'
-                },
-                muted: '#94a3b8'
+                paper: '#F4F3EE',
+                'paper-deep': '#EAE9E2',
+                ink: '#171A16',
+                muted: '#666B63',
+                border: '#D9D9D0',
+                green: '#315D49',
+                dark: '#111410',
+                'dark-surface': '#1A1E19',
+                'dark-muted': '#A9AEA4'
             },
             fontFamily: {
-                display: ['"Space Grotesk"', 'sans-serif'],
-                body: ['Inter', 'sans-serif'],
-                mono: ['"JetBrains Mono"', 'monospace']
+                display: ['Manrope', 'sans-serif'],
+                body: ['"DM Sans"', 'sans-serif'],
+                mono: ['"DM Mono"', 'monospace']
             },
-            boxShadow: {
-                glow: '0 0 0 1px rgba(34,211,238,0.25), 0 0 24px -4px rgba(34,211,238,0.35)',
-                glowIndigo: '0 0 0 1px rgba(99,102,241,0.25), 0 0 24px -4px rgba(99,102,241,0.35)'
-            }
         }
     },
     plugins: [],
